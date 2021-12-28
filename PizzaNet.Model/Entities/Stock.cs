@@ -12,7 +12,7 @@ namespace PizzaNet.Model.Entities
         public int MinLimit { get; set; }
         public int Cantity { get; set; }
         public DateTime DueDate { get; set; }
-        public Product productId { get; set; }
+        public ICollection<Product> ListProducts { get; set; }
 
     }
 }
