@@ -8,5 +8,6 @@ namespace PizzaNet.Model
 {
     class PizzaNetContext
     {
+
     }
 }
